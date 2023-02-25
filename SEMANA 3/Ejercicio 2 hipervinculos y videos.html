@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UFT-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJERCICIO 2_S3</title>
+    <link rel="shortcut icon" href="https://cdn.sstatic.net/Sites/es/img/favicon.ico?v=a8def514be8a">
+<!-- VAMOS A DEFINIR ESTILOS APLICADOS A PAGINA WEB CON <style> -->
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Gajraj+One&family=Lobster&display=swap');
+    .responsive{
+        max-width: 100%;
+        height: auto;
+        }
+        /* fondo a la pagina */
+        body{
+            background-image: url(img/blanco-ejercicio.jpg); 
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            /* tipo de letra a toda la pagina */
+            font-family: 'Gajraj One', cursive;
+            font-family: 'Lobster', cursive;
+        }
+        /* imagen mas grande con escala de grises al pasar el mause */
+        .responsive:hover{
+            transform: scale(1.2);
+            filter: grayscale(100%);
+        }
+        /* central los titulos */
+        h1, h2, h3, h4,p{
+            text-align: center;
+            color: black;
+        }
+</style>
+</head>
+<body>
+<!--DEFINIR ANCLAJE INTERNO  -->
+    <a id="INICIO"></a><br>
+    <!-- ETIQUETA MARQUESINA PARA MOVER TITULO DE UN LADO A OTRO -->
+        <marquee behavior="alternate" direction="right" style="font-size: 35px; background-color: goldenrod;">WEB RESPONSIVE CON HIPERVINCULOS Y VIDEOS</marquee>
+        <hr><hr>
+<!--DEFINIR HIPERVINCULOS  -->
+<h1>SECCION DE HIPERVINCULOS</h1>
+<br>
+<center>
+    <a href="https://www.youtube.com/" target="_blank">VER VIDEOS EN YOUTUBE</a><br><br>
+    <a href="https://www.eltiempo.com/" target="_blank">VER NOTICIAS EN EL TIEMPO</a><br><br>
+    <a href="https://www.incap.edu.co/" target="_blank">IR A PAGINA WEB DE INCAP</a><br><br>
+    <a href="https://www.unigermana.edu.co/" target="_blank">IR A PAGINA WEB UNIGERMANA</a><br><br>
+    <a href="https://colombia.as.com/" target="_blank>">VER NOTICIAS DEPORTIVAS EN AS</a><br><br>
+</center>
+<hr><hr>
+<!--SECCION DE REDES SOCIALES  -->
+    <h2>SECCION DE REDES SOCIALES</h2>
+    <center>
+        <a href="https://es-la.facebook.com" target="_blank"><img class="responsive" src="img/face.png" alt="" width="100px" height="90px"></a>
+        <a href="https://twitter.com/?lang=es" target="_blank"><img class="responsive" src="img/twitter.png" alt="" width="100px" height="90px"></a>
+        <a href="https://www.instagram.com/" target="_blank"><img class="responsive" src="img/instagram.png" alt="" width="100px" height="90px"></a>
+        <a href="https://www.whatsapp.com/?lang=es" target="_blank"><img class="responsive" src="img/whatsapp.png" alt="" width="100px" height="90px"></a>
+    </center>
+<br><br><br><br>
+<hr><hr>
+<!-- SECCION DE VIDEOS EMBEBIDOS -->
+<h2>SECCION DE VIDEOS EMBEBIDOS</h2>
+<br>
+<center>
+    <iframe class="responsive" width="560" height="315" src="https://www.youtube.com/embed/cqMfPS8jPys" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture" allowfullscreen></iframe>
+</center>
+<hr><hr>
+<!--SECCION DE TEXTOS -->
+<h2>SECCION DE PROGRAMAS CON DISEÑO WEB</h3>
+<center>
+    <img class="responsive" src="img/HTML5.png" alt="" width="100" height="100">
+    <img class="responsive" src="img/css3.png" alt="" width="100" height="100">
+    <P>Esta materia de HTML es muy importante conocerla por la continua estructuración de las paginas web</P>
+    <br>
+    <p>CSS es su complemento para colocar estilos básicos y avanzados</p>
+</center>
+<br><br>
+<hr><hr>
+<!--SECCION DE ENLACE INTERNO  -->
+<center>
+    <a href="#INICIO"><img src="/img/inicio.jpg" width="80" height="70" alt="Inicio"></a>
+    <br><br>
+    <cite>Creado por:@Willian Manzanares</cite>
+</center>
+</body>
+</html>
